@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a php test website. In here you can find the  versions used in this test website, And you can add a table to database, Or in user side, you can register. But you can't again log in through the log in page. This is not a advanced dynamic page. We are testing the page by some dynamic componenets.">
+    
+    <!---------stylesheet >= styles in /styles/style.css-------->
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <!--------Title of the page-->
+    <title>Test Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <h1><em><a class="atag" href="/">Test.io</a></em></h1>
+            <ul type="none">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="/About/About.html">About Us</a>
+                    <!--
+                    <ul class="dropdown-menu" type="none">
+                        <li><a class="dropdown-item" href="https://s488u.github.io/personal">Personal Website</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/s488u/">Github</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#carousel">About</a></li>
+                        </ul>
+                        -->
+                </li>
+            </ul>
+        </nav>
+
+        <div class="inputs">
+            <input type="text" class="search" name="" id="" placeholder="search">
+            <input type="submit" class="submit" value="search">
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="child-container">
+            <h1 class="header-1"><em>PHP form Test page.</em></h1>
+
+            <div class="form-section">
+                <form action="/php/insert.php" method="post">
+                    <div class="child-forms">
+                        <label for="username">Name</label>
+                        <input type="text" name="" id="" >
+                    </div>
+                    <div class="child-forms">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="" id="" >
+                        <br>
+                        <span class="span-child">we will not share your data with third parties.</span>
+                    </div>
+                    <div class="child-forms">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="pass" >
+                    </div>
+                    <div class="child-forms container">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label class="span-2">accept our terms and conditions.</label>
+                    </div>
+                    <div class="child-forms">
+                        <input type="submit" value="submit" id="submit"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

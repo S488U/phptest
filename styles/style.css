@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(to top, #808080 -41%, #ffffff 100%);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
+
+.atag {
+    font-size: 36px;
+    position: relative;
+    top: -5px;
+}
+
+.navbar {
+    font-family: sans-serif;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .inputs {
+    margin: 10px;
+    position: relative;
+    left: 680px;
+}
+
+.navbar .inputs .search {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid cyan ;
+    box-shadow: 0 0px 4px 0px  rgb(211, 211, 211);
+    font-size: 18px;
+    width: 10rem;
+}
+
+.navbar .inputs .submit {
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    color: black;
+    box-shadow: 0 0px 4px 0px  rgb(211, 211, 211);
+    font-size: 18px;
+}
+
+.navbar .inputs .submit:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.main-container {
+    width: 100%;
+    height: 110vh;
+
+}
+
+.main-container .child-container {
+    margin-top: 4rem;
+    width: 700px;
+    height: 60vh;
+    padding: 10px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: space-around;
+    position: absolute;
+    left: 300px;
+    text-align: center;
+}
+
+.form-section {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header-1 {
+    margin-top: 40px;
+}
+
+.child-forms {
+    margin: 20px 0;
+}
+
+.child-forms label {
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    left: -20px;
+    margin-right: 10px;
+}
+
+.child-forms label:last-child{
+    margin-right: 2px;
+}
+
+.child-forms input {
+    font-size: 18px;
+    padding: 8px 7px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0px 4px 0px  rgb(211, 211, 211);
+    
+}
+
+#pass {
+    margin-left: -22px;
+}
+
+
+
+.child-forms input:focus {
+    border: none;
+    box-shadow: none;
+
+}
+
+.span-child {
+    font-size: small;
+    color: grey;
+    margin-left: 91px;
+    padding-top: 5px;
+}
+
+.span-2 {
+    display: inline-block;
+    font-size: 8px;
+    color: grey;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    justify-content: right;
+    align-content: space-around;
+    margin-right: 120px;
+}
+
+#checkbox {
+    position: relative;
+    left: -30px;
+}
+
+#submit {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    color: black;
+    box-shadow: 0 0px 4px 0px  rgb(211, 211, 211);
+    font-size: 18px;
+}
+
+#submit:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}

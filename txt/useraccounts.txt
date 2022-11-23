@@ -1,0 +1,49 @@
+# Privileges for ``@`%`
+
+
+# Privileges for `pma`@`localhost`
+
+GRANT USAGE ON *.* TO `pma`@`localhost`;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `phpmyadmin`.* TO `pma`@`localhost`;
+
+
+# Privileges for `root`@`127.0.0.1`
+
+GRANT ALL PRIVILEGES ON *.* TO `root`@`127.0.0.1` WITH GRANT OPTION;
+
+
+# Privileges for `root`@`::1`
+
+GRANT ALL PRIVILEGES ON *.* TO `root`@`::1` WITH GRANT OPTION;
+
+
+# Privileges for `root`@`localhost`
+
+GRANT ALL PRIVILEGES ON *.* TO `root`@`localhost` WITH GRANT OPTION;
+
+GRANT PROXY ON ''@'%' TO 'root'@'localhost' WITH GRANT OPTION;
+
+
+
+/////////////////////////
+
+
+ <form action="insert.php" method="post" >
+            <label for="name"> name
+                <input type="text" name="username" placeholder="type your name" id="text" >
+            </label>
+            <br>
+            <br>
+            <label for="password">password
+                <input type="password" name="password" id="password" >
+            </label>
+            <br>
+            <br>
+            <label for="email">email
+                <input type="email" name="email" id="email" >
+            </label>
+            <br>
+            <button type="submit" value="submit" name="submit">submit</button>
+            
+        </form>
